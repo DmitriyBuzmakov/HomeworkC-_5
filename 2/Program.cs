@@ -14,7 +14,6 @@ int[] GetArray(int size, int min, int max)
 
     return myArray;
 }
-
 void PrintArray(int[] array)
 {
     int res = 0;
@@ -24,7 +23,6 @@ void PrintArray(int[] array)
     }
     Console.WriteLine($"Сумма элементов, стоящих на нечётных позициях = {res}");
 }
-
 int[] myArray = GetArray(8, -10, 10);
 Console.WriteLine(string.Join(", ", myArray));
 PrintArray(myArray);
