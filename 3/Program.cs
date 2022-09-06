@@ -1,10 +1,10 @@
 ﻿//Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 //[3 7 22 2 78] -> 76
 double[] mass = new double[5];      
-Random rnd = new Random();      
+Random rand = new Random();      
 for (int i = 0; i < mass.Length; i++)
 {
-    mass[i] = rnd.Next(-100, 100); 
+    mass[i] = rand.Next(-100, 100); 
     Console.Write($" {mass[i]} ");
 }
 double min = 0;
